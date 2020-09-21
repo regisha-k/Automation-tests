@@ -1,0 +1,281 @@
+{
+	"id": "bd8c4fca-1fec-4e62-8b09-99f02456a41b",
+	"name": "CA Marketing Address (final project)",
+	"timestamp": "2020-09-21T17:03:13.344Z",
+	"collection_id": "d6fee037-7326-43bc-bee0-8457ccb33eb2",
+	"folder_id": 0,
+	"environment_id": "be44855e-b5ee-488a-9521-371687e33858",
+	"totalPass": 23,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b033addb-ac9c-461e-9125-b2123f1856f2",
+			"name": "POST addresses",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Body has ID": true,
+				"ID is correct": true,
+				"Backend is available, response code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body has ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"ID is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Body has ID": true,
+					"ID is correct": true,
+					"Backend is available, response code is 200": true
+				}
+			]
+		},
+		{
+			"id": "143271d7-5d47-4d08-87f2-f3d0bc883f84",
+			"name": "Get Specific addresses",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/f5946705-566e-4fb4-bbfc-432a9596e188",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"ID is correct": true,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"ID is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				77
+			],
+			"allTests": [
+				{
+					"ID is correct": true,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "56877b2d-a10a-4982-ba43-ac89e52ba4ef",
+			"name": "Patch address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/f5946705-566e-4fb4-bbfc-432a9596e188",
+			"time": 324,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Address ID is match": true,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Address ID is match": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				324
+			],
+			"allTests": [
+				{
+					"Address ID is match": true,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "8abcad3c-bde8-4e4a-a49d-b62de550331f",
+			"name": "Get Specific addresses",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/f5946705-566e-4fb4-bbfc-432a9596e188",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response should be okay to process": true,
+				"company is Google": true,
+				"Company is current": true,
+				"Company is correct again": true,
+				"Backend is available, response code is 200": true
+			},
+			"testPassFailCounts": {
+				"response should be okay to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"company is Google": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Company is current": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Company is correct again": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"response should be okay to process": true,
+					"company is Google": true,
+					"Company is current": true,
+					"Company is correct again": true,
+					"Backend is available, response code is 200": true
+				}
+			]
+		},
+		{
+			"id": "60e45723-203d-4b26-84ed-4b00d2bb2524",
+			"name": "DELETE address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/f5946705-566e-4fb4-bbfc-432a9596e188",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response Size is less than 1000 B": true,
+				"Response Header is present and correct": true,
+				"Order has been deleted, OK": true,
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true,
+				"Backend is available, response code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response Size is less than 1000 B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Header is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Order has been deleted, OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				91
+			],
+			"allTests": [
+				{
+					"Response Size is less than 1000 B": true,
+					"Response Header is present and correct": true,
+					"Order has been deleted, OK": true,
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true,
+					"Backend is available, response code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 775,
+	"collection": {
+		"requests": [
+			{
+				"id": "b033addb-ac9c-461e-9125-b2123f1856f2",
+				"method": "POST"
+			},
+			{
+				"id": "143271d7-5d47-4d08-87f2-f3d0bc883f84",
+				"method": "GET"
+			},
+			{
+				"id": "56877b2d-a10a-4982-ba43-ac89e52ba4ef",
+				"method": "PATCH"
+			},
+			{
+				"id": "8abcad3c-bde8-4e4a-a49d-b62de550331f",
+				"method": "GET"
+			},
+			{
+				"id": "60e45723-203d-4b26-84ed-4b00d2bb2524",
+				"method": "DELETE"
+			}
+		]
+	}
+}
